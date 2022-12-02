@@ -1,7 +1,7 @@
 import sys
 
 if __name__ == '__main__':
-    f = open("Input.txt", "r")
+    f = open("test.txt", "r")
     max_sum = 0
     cur_sum = 0
     while line := f.readline():

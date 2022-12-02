@@ -2,7 +2,7 @@ import sys
 
 
 def find_calories():
-    f = open("Input.txt", "r")
+    f = open("input.txt", "r")
     sums = []
     cur_sum = 0
     while line := f.readline():
