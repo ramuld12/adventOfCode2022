@@ -12,5 +12,6 @@ if __name__ == '__main__':
         buffer.append(lines[0][i])
         buffer_set = set(buffer)
         if (len(buffer) == len(buffer_set)) & (len(buffer_set) == 4):
+            print(i + 1)
             break
         i += 1
